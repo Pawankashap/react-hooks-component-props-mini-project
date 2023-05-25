@@ -4,7 +4,7 @@ import Article from "./Article";
 function ArticleList({posts}){
     
      const articallistObj = posts.map((artical)=>{
-         return <Article key={artical.id} title={artical.title} date={artical.date} preview={artical.preview}/>
+         return <Article key={artical.id} title={artical.title} date={artical.date} preview={artical.preview} minutes={artical.minutes}/>
      })
     return (
         <main>
@@ -13,3 +13,5 @@ function ArticleList({posts}){
     )
 }
 export default ArticleList;
+
+//☕️🍱
