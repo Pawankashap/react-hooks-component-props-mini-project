@@ -1,8 +1,10 @@
-import logo from "../assets/logo.svg";
+//import logo from "../assets/logo.svg";
+import logo from "../assets/favicon.ico";
 
 const blogData = {
   name: "Underreacted",
   image: logo,
+  //image: '',
   about: "A blog about learning React",
   posts: [
     {
